@@ -25,15 +25,17 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./amuamu-11-mujinto
 
       - name: Build the SvelteKit app
         run: npm run build
+        working-directory: ./amuamu-11-mujinto
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # SvelteKit(adapter-static)の出力先である 'build' フォルダを指定
-          path: ./build
+          path: ./amuamu-11-mujinto/build
 
   deploy:
     needs: build

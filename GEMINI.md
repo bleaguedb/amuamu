@@ -5,11 +5,12 @@
 表示は日本語で行うこと。
 
 ## GUI
-フレームワークとして、svelte5 + tailwind + svelte-konva + skeltonUI
+フレームワークとして、svelte5 + tailwind v4 +  skeltonUI
 github pagesに公開するのでstaticにコンパイルする。
 svelte5の情報は少ないので、必ずsvelte5_full_contextを読んで機能を確認すること。
 
-
+GUIはamuamu-11-mujinto sub directory で開発中。
+main directoryのファイルはゴミ。
 
 
 # Conventions
