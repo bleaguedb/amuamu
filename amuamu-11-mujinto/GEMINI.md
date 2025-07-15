@@ -6,7 +6,12 @@
 
 ## GUI
 フレームワークとして、svelte5 + tailwind v4 +  skeltonUI
-svelte5の情報は少ないので、必ずsvelte5_full_contextを読んで機能を確認すること。
+
+必ず各フレームワークのドキュメントを読むこと。
+svelte5 : svelte5_full_context.txt
+tailwindcss v4 : tailwindcss_v4.txt
+skeleton v3 : llm_skeleton_v3.txt, llm-svelte.txt
+
 
 GUIはamuamu-11-mujinto sub directory で開発中。
 github pagesに公開する。
